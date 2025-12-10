@@ -1,5 +1,5 @@
 
-📘 Job Recommendation System — IBM Capstone
+### **📘 Job Recommendation System — IBM Capstone**
 
 Vector Database + Hugging Face Embeddings + ChromaDB
 
@@ -10,7 +10,7 @@ The system has two intelligent recommendation pipelines:
 
 ⸻
 
-🔹 Part 1 — Text Query Job Recommendation System
+**🔹 Part 1 — Text Query Job Recommendation System**
 
 Users enter a query like:
 
@@ -27,7 +27,7 @@ sentence-transformers/all-MiniLM-L6-v2
 
 ⸻
 
-🔹 Part 2 — Resume-Based Job Recommendation System (PDF)
+**🔹 Part 2 — Resume-Based Job Recommendation System (PDF)**
 
 Users provide a PDF resume, and the system:
 	1.	Extracts text using pdf-parse
@@ -37,7 +37,7 @@ Users provide a PDF resume, and the system:
 
 ⸻
 
-🧠 Architecture Overview
+**🧠 Architecture Overview**
 
                   ┌────────────────────────────────┐
                   │        jobPostings.js          │
@@ -62,7 +62,7 @@ Users provide a PDF resume, and the system:
 
 ⸻
 
-🛠️ Tech Stack
+**🛠️ Tech Stack**
 
 Component	Technology
 Vector DB	ChromaDB (local server)
@@ -75,9 +75,9 @@ HF API	HuggingFace Inference endpoints
 
 ⸻
 
-📦 Installation & Setup
+## **📦 Installation & Setup**
 
-1️⃣ Clone the repository
+**1️⃣ Clone the repository**
 
 git clone https://github.com/vishu1912/job-recommendation-system-IBM-capstone.git
 cd job-recommendation-system-IBM-capstone
@@ -85,7 +85,7 @@ cd job-recommendation-system-IBM-capstone
 
 ⸻
 
-2️⃣ Install dependencies
+**2️⃣ Install dependencies**
 
 npm install
 
@@ -98,7 +98,7 @@ pdf-parse
 
 ⸻
 
-3️⃣ Start ChromaDB locally
+**3️⃣ Start ChromaDB locally**
 
 If using Chroma server:
 
@@ -111,7 +111,7 @@ http://localhost:8000
 
 ⸻
 
-4️⃣ Add Hugging Face API Key
+**4️⃣ Add Hugging Face API Key**
 
 In both files:
 
@@ -128,11 +128,11 @@ const hf = new HfInference("YOUR_API_KEY");
 
 ⸻
 
-🚀 Running the Project
+**🚀 Running the Project**
 
 ⸻
 
-▶️ Part 1 — Query-Based Job Recommendations
+**▶️ Part 1 — Query-Based Job Recommendations**
 
 Example:
 
@@ -146,7 +146,7 @@ Description: Work with BI team...
 
 ⸻
 
-▶️ Part 2 — Resume PDF Job Recommendations
+**▶️ Part 2 — Resume PDF Job Recommendations**
 
 Run:
 
@@ -165,7 +165,7 @@ Top 2: Data Analyst @ Deloitte...
 
 ⸻
 
-📁 Project Structure
+**📁 Project Structure**
 
 📦 job-recommendation-system-IBM-capstone
  ┣ 📜 jobrecommendationsystem.js        # Part 1 logic
@@ -177,7 +177,7 @@ Top 2: Data Analyst @ Deloitte...
 
 ⸻
 
-🧮 How Vector Search Works
+**🧮 How Vector Search Works**
 
 ✔ Convert job descriptions → embeddings
 
@@ -191,7 +191,7 @@ This allows meaningful matching even when keywords differ.
 
 ⸻
 
-📈 Accuracy Improvements (Future Work)
+**📈 Accuracy Improvements (Future Work)**
 
 ✔ Fine-tune custom embedding model
 ✔ Use better filtering with entity extraction
@@ -202,7 +202,7 @@ This allows meaningful matching even when keywords differ.
 
 ⸻
 
-🖼️ Screenshots (Add later)
+**🖼️ Screenshots (Add later)**
 
 /screenshots
   ├── part1-output.png
@@ -212,7 +212,7 @@ This allows meaningful matching even when keywords differ.
 
 ⸻
 
-🏁 Final Notes
+**🏁 Final Notes**
 
 This project demonstrates:
 
