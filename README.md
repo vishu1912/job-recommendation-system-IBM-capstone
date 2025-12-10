@@ -1,19 +1,3 @@
-Here is a clean, professional, production-ready README.md for your GitHub repository — written exactly the way IBM would expect for a Vector Database Certification Capstone.
-
-It covers:
-
-✔️ Project summary
-✔️ Architecture visuals (ASCII)
-✔️ Tech stack
-✔️ Installation steps
-✔️ How to run Part 1 + Part 2
-✔️ Flow diagrams
-✔️ Future improvements
-✔️ Screenshots placeholders
-
-You can copy–paste directly into README.md.
-
-⸻
 
 📘 Job Recommendation System — IBM Capstone
 
